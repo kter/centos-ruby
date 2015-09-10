@@ -1,5 +1,7 @@
 FROM centos:6
 
+MAINTAINER kter <me@kter.jp>
+
 RUN yum -y update
 
 RUN yum install -y gcc tar dbm-devel gdbm-devel openssl-devel readline-devel tk-devel zlib-devel
